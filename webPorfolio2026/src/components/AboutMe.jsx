@@ -1,3 +1,6 @@
+import githubIcon from '../assets/githubIcon.png';
+import linkedinIcon from '../assets/linkedin icon.png';
+
 export default function AboutMe() {
     return (
         <section id="about">
@@ -13,16 +16,20 @@ export default function AboutMe() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-github"
+                    aria-label="Visit Gabriel's GitHub profile"
+                    title="GitHub"
                 >
-                    GitHub   
+                    <img src={githubIcon} alt="" className="social-link-icon" />
                 </a>
                 <a
                     href="https://www.linkedin.com/in/gabriel-rod/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn-linkedin"
+                    aria-label="Visit Gabriel's LinkedIn profile"
+                    title="LinkedIn"
                 >
-                    LinkedIn                    
+                    <img src={linkedinIcon} alt="" className="social-link-icon" />
                 </a>
             </div>
         </section>

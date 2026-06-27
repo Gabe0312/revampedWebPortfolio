@@ -5,8 +5,6 @@ export default function ProjectsSection() {
         <section id="projects">
             <h1>My Projects</h1>
 
-            
-
                 <div className="project-cards-container">
                     {projects.map((project) => (
                         <ProjectCard

@@ -1,7 +1,7 @@
 export const projects = [
     {   
         id: 1,
-        title: "Project 1",
+        title: "Panther Robotics Lunar Rover",
         description: "Description of Project 1",
         imageUrl: "path/to/image1.jpg",
         projectUrl: "https://example.com/project1"
