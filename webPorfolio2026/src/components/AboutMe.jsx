@@ -2,7 +2,7 @@ import educationIcon from '../assets/education icon.png';
 import githubIcon from '../assets/githubIcon.png';
 import headshot from '../assets/headshot-portfolio.jpg';
 import linkedinIcon from '../assets/linkedin icon.png';
-import resumeFile from '../assets/Gabriel Rodriguez Resume.pdf';
+import resumeFile from '../assets/Gabriel Resume.pdf';
 
 export default function AboutMe() {
     return (
@@ -57,7 +57,7 @@ export default function AboutMe() {
                     </a>
                     <a
                         href={resumeFile}
-                        download="Gabriel Rodriguez Resume.pdf"
+                        download="Gabriel Resume.pdf"
                         className="btn-resume"
                         aria-label="Download Gabriel Rodriguez resume"
                     >
