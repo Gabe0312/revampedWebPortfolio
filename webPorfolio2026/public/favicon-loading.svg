@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Loading blue gear favicon</title>
+  <rect width="64" height="64" rx="14" fill="#eaf7f8"/>
+  <g>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 32 32"
+      to="360 32 32"
+      dur="0.9s"
+      repeatCount="indefinite"
+    />
+    <g fill="#2563eb" stroke="#0f766e" stroke-width="2" stroke-linejoin="round">
+      <rect x="27" y="3" width="10" height="12" rx="2"/>
+      <rect x="27" y="49" width="10" height="12" rx="2"/>
+      <rect x="3" y="27" width="12" height="10" rx="2"/>
+      <rect x="49" y="27" width="12" height="10" rx="2"/>
+      <rect x="27" y="3" width="10" height="12" rx="2" transform="rotate(45 32 32)"/>
+      <rect x="27" y="49" width="10" height="12" rx="2" transform="rotate(45 32 32)"/>
+      <rect x="3" y="27" width="12" height="10" rx="2" transform="rotate(45 32 32)"/>
+      <rect x="49" y="27" width="12" height="10" rx="2" transform="rotate(45 32 32)"/>
+      <circle cx="32" cy="32" r="21"/>
+    </g>
+    <circle cx="32" cy="32" r="12" fill="#f6fbfc" stroke="#1e3a8a" stroke-width="2"/>
+    <circle cx="32" cy="32" r="5" fill="#0f766e"/>
+  </g>
+</svg>
